@@ -4,166 +4,118 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: auto;
-    padding: 40px 20px;
-    background: white;
-  }
-
-  .nav-bar {
+    background: #cac4c4;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    background: white;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-  }
-
-  .nav-bar a svg {
-    width: 24px;
-    height: 24px;
-    align-items: center;
-  }
-
-  .divider {
-    width: 1px;
-    height: 24px;
-    background-color: #ccc;
+    flex-direction: column;
+    justify-content: center; 
+    
   }
   
+#main {
+  width: 270;
+  height: 7467;
+  top: -862px;
+  left: 2584px;
+  background: #FFFFFF;
+  padding: 25px ;
+  margin: 100px ;
   
-  /* Top Bar */
-  .top-bar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 30px;
-    justify-content: center;
-  }
-
-.top-bar ul {
-  display: flex;
-  justify-content: end;
-  list-style: none;
+}  
+  
+#navbar a img {
+  width: 17px;
 }
 
-.top-bar a {
+#navbar {
+  display: flex;
+  gap: 10px;
+  color: #00000052;
+  align-items: center;
+  justify-content: center;
+  width: 300px; 
+  border-radius: 20px;
+  border-width: 1px;
+  padding: 10px;
+  gap: 20px;
+  border: 1px solid #00000052;
+  position: center;
+  margin-left: 350px;
+  font-size: 10px;
+}
+
+.book-call {
+  border-radius: 10px;
+  border: none;
+  background-color: black;
   color: white;
-  text-decoration: none;
+  font-size: 12px ;
+  padding: 11px;
   font-weight: bold;
 }
-  
-  .icons a img {
-    width: 24px;
-    height: 24px;
-  }
-  
-svg {
-    width: 20px;
-    height: 20px;
-    border-radius: 100px;
-    font-size: 10px;
-    color: black;
+
+
+
+#header {
+  padding: 150px;
 }
 
-  .book-call {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-
-  .available-for-work {
-    background-color: #BBF7D0;
-    color: rgb(3, 178, 3);
-    padding: 10px 20px;
-    border-radius: 8px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
-    border: 1px solid #86EFAC;
-  }
-
-  
-  .available-for-work:hover  {
-    background: #ecfeec;
-  }
-  
-  .book-call:hover {
-    background: #5f5c5cb7;
-  }
-
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    font-size: 10px;
-
+.profile-pic {
+  width: 100px;
+  gap: 14px;
 }
 
+.available-for-work {
+  border-radius: 10px;
+  border: none;
+  color: green;
+  background-color: #BBF7D0;
+  font-size: 15px ;
+  padding: 12px;
+  border: 1px solid #86EFAC;
+}
 
-.profile h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
+.actions {
+  display: flex;   
+  gap: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  Color: #737373;
   
-  .profile p {
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .actions {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .btn-dark {
-    background: black;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  .btn-light {
-    background: #d4f8d4;
-    color: #1b7e1b;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: default;
-  }
-  
-  /* Portfolio Section */
-  .portfolio {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .portfolio img {
-    width: 100%;
-    max-width: 280px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  
+}
+
+#portfolio img {
+  width: 330px;
+  height: 350px;
+  top: 733px;
+  left: -120px;
+  gap: 40px;
+  padding: 10px;
+ 
+}
+
+#first-paragraph {
+  padding: 150px;
+}
+
+#seconde-paragraph {
+  padding: 150px;
+}
+

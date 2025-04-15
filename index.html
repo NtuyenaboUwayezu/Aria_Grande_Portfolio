@@ -4,71 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Aria_Grande</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
 
-    <div class="container">
+    <section id="main">
+      
+          <nav id="navbar">
+            <a href="#home-icon"><img src="./images/home.png" alt="home icon"></a>
+            <div class="divider">|</div>
+            <a href="#ball-icon"><img src="./images/dribbble.png" alt="ball icon"></a>
+            <a href="#insta-icon"><img src="./images/instagram.png" alt="insta icon"></a>
+            <a href="phone=call-icon"><img src="./images/phone-call.png" alt="phone call icon"></a>
+            <div class="divider">|</div>
+            <button class="book-call">Book a call</button> 
+          </nav>
 
-        <div class="top-bar">
-          <ul>
-          
-          <div class="nav-bar">
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-            </svg>
-            </a>
-            <div class="divider"></div>
+                                <header id="header">
+                                  <section class="profile">
+                                      <img class="profile-pic" src="./images/Rectangle 7.png" alt="Profile Photo" />
+                                      <h1>Hey, I’m <strong><em>Aria Grande</em></strong>.<br/>Dreamer & 🎨 Designer</h1>
+                                      <p class="my-paragraph">I design with passion, dream with ambition, and bring ideas to life. With a knack for creativity and an eye for detail, I specialize in crafting user-centered designs that inspire and engage.</p>
+                                      <div class="actions">
+                                        <button class="book-call">Book a call</button>
+                                        <button class="available-for-work">Available for work</button>
+                                      </div>
+                                    </section>
+                                  </header>
 
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
-            </svg>
-            </a>
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
-              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" />
-            </svg>
-            </a>
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-            </svg>
-            </a>
-            <div class="divider"></div>
+                                      
+                                              <section id="portfolio">              
+                                                <img src="./images/image 8.png" alt="Project 1" />
+                                                <img src="./images/image 9.png" alt="Project 2" />
+                                                <img src="./images/image 10.png" alt="Project 3" />
+                                                        
+                                                      <header id="first-paragraph">
+                                                      <h1>About</h1>
+                                                      <p>Hi there! I’m Mia Carter, a designer driven by curiosity and a passion for creativity. My journey began with a love for art and technology, which naturally evolved into a career in design. Over the years, I’ve honed my skills in UX/UI design, visual storytelling, and creating intuitive user experiences that resonate with people. I believe great design is not just about aesthetics but also about solving problems and making life easier for users. </p>
+                                                      <p> When I’m not immersed in design projects, you’ll find me exploring new creative avenues, whether it’s sketching ideas, traveling for inspiration, or diving into the latest design trends. Collaboration excites me, and I thrive in environments where ideas flow freely and innovation takes center stage. I’m always ready to take on new challenges that push the boundaries of creativity and functionality.</p>              
+                                                      </header>
+                                                    </section>
+                                                
 
-          <button class="book-call">Book a call</button>       
-          </div>
-        </ul>
-        </div>
-             
-                <section class="profile">
-                    <img class="profile-pic" src="https://s3-alpha-sig.figma.com/img/e915/f882/38ac6007aa5be950081f8f386a727a10?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gVarwc7w98qsfAddi-xTVFynih1lN8k2PmJmDRba58rVxta0-tQHcyBDDFp8M5MWxZ44od67Os~wcahGl20auxA6QohMI~Blm56FI7WEDsfEMEkRpbuLK3GW~KlMqGPeDnz45XgGZf2m91Ye7dQZYMjNzJZeC8hzb6X7oGEfdAPZPNXurItXiP0zmofQreX9hCf~NCxA5g8KJxG8SCPkKZdAil0pEGV6F~jv6s05yEQ1JF~45JwuEcc-WfEsdzQF~qwb4haXiEu0~Na8j5bkBrADj6YggX1gOYmGb38kzFg4Lpzv7n7qUWKC-yZPQ9K5mhmJnelLiqThRdsiygD21A__" alt="Profile Photo" />
-                    <h1>Hey, I’m <strong><em>Aria Grande</em></strong>.<br/>Dreamer & 🎨 Designer</h1>
-                    <p>I design with passion, dream with ambition, and bring ideas to life. With a knack for creativity and an eye for detail, I specialize in crafting user-centered designs that inspire and engage.</p>
-                    <div class="actions">
-                      <button class="book-call">Book a call</button>
-                      <button class="available-for-work">Available for work</button>
-                  </section>
-        </div>  
-            <section class="portfolio">
-                <img src="https://s3-alpha-sig.figma.com/img/bca6/7ef0/d492d0b397e08a8fff9950831b4dcc57?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eM9zzprm8g9rp5EzB9zBAFO5lX8IzXW1wwMr3EDtFRyBsrw6Y2wzMXYeyjocd8yskUZImH0f2d6jxajYDLIQk2pCQRQI6KR7cOpA0DWLxFFFvisa2-HMpi4jfnhbpdo6NjxmKUgPeECEIGRfyZXRhd1AMjcbeFpSd7H3mK43XYEEUeolmAE7yzGX~2iu7nQv6NLLqehbDRBQkj3lT2afbnS4AEPMLd0PFNKpHDM4vtN44oGY8mkGf7VrlozDVo4YJMraCgjfwu3zVVL-oUl7nuppHh3TytmTH--8kWxd4iijKhlkko6-xWzHTpG1jj2O9QxmmYiP9pYpi16L-IFGgA__" alt="Project 1" />
-                <img src="https://s3-alpha-sig.figma.com/img/8ebf/57c5/7695373e6c3649300a8d04a42428f434?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ROJulao7-dh0Lusb65UR-HcWM1prQ1DvhZbBWDaSiUcwoVHGoiZjBt74pKYGriB63VuqbzabpyedN5Ye1tzj8zC07MRUq7gNyspwUubeQkuTsSSDxZXwDH7P~ynuL0vdMO2qP93JYiHmvPqAJMHKTo8zLOZfWSi4WdnKDRQyc1Psh5PK5CQZx-7cyXIYfmOU8On57unAhdEIea0oLCjIVy4uP92gzvt~XbgOLPYjZzZPpJtGXZmtCE1l3srBHYsEREHTkXjnd9USpbwaWclmn7gqfpE5U1-LTGN7WYZoAbaDrDZZpbibaUqmwgWBErpbFGUZGtiGkISpd3aTIZ7qww__" alt="Project 2" />
-                <img src="https://s3-alpha-sig.figma.com/img/b3cb/c713/e4915824c0bfbc55218d0b13ec2bed75?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=W1VJRwiYvC8GH4gK854AIF6eeBoDUL4wmGGW-FK2HXoTtgu9zVGg9Y40J2d2S~kwHe~tPL2XHnV-LknjoMK5oyH3H4ltTt9mAv3IdDd7VYFeOvdk57cFdxUFAyI61sY32YE7iZYYuqwz-u0tbqGbifWqqI6i43TYveycy9CoN6Iev~UEQ22q6ffRY0Zq23KIFUzTwk6BKyCDVBIDiydJcrpfOsb5T8wziQ1puwsQd1vSIGU3B2UahwCneVEl91uH2WmM6Y30rJSWvGS~TctcVbMy1VIUdtAS~2H0CFCpWyClFkr0IkIZP1yppl4dEwchMpl4CINAiUsLYHFvHO006Q__" alt="Project 3" />
-              <h1>About</h1>
-              </section>
-          
-        </div>
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
-            <footer></footer>
-        </main>
+                                                                <section id="seconde-paragraph">
+                                                                  <h1>Work experiences</h1>
+                                                                  <p>Hi there! I’m Mia Carter, a designer driven by curiosity and a passion for creativity. My journey began with a love for art and technology, which naturally evolved into a career in design. Over the years, I’ve honed my skills in UX/UI design, visual storytelling, and creating intuitive user experiences that resonate with people. I believe great design is not just about aesthetics but also about solving problems and making life easier for users. </p>
+                                                                  <p> When I’m not immersed in design projects, you’ll find me exploring new creative avenues, whether it’s sketching ideas, traveling for inspiration, or diving into the latest design trends. Collaboration excites me, and I thrive in environments where ideas flow freely and innovation takes center stage. I’m always ready to take on new challenges that push the boundaries of creativity and functionality.</p>
+                                                                    <div class="work-experience">
+                                                                      <p></p>
+                                                                    </div>
+                                                                </section>
+      </section>
 </body>
 
 </html>
